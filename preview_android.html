@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Preview Android XML - MediCare</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Roboto',sans-serif;background:#1a1f2e;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:30px 20px;gap:24px}
+.header{text-align:center;color:#fff}
+.badge{display:inline-block;background:#0a7d6e;color:#fff;font-size:11px;padding:4px 14px;border-radius:20px;margin-bottom:10px}
+.header h1{font-size:1.3rem;color:#e0e6f0}
+.header p{font-size:12px;color:#5a6a80;margin-top:4px}
+.phone{width:360px;background:#101520;border-radius:44px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,0.7)}
+.notch{width:100px;height:26px;background:#101520;border-radius:0 0 18px 18px;margin:0 auto 10px;display:flex;align-items:center;justify-content:center;gap:8px}
+.cam{width:8px;height:8px;background:#1e2535;border-radius:50%}
+.speaker{width:40px;height:5px;background:#1e2535;border-radius:10px}
+.screen{background:#F5F0E8;border-radius:32px;overflow:hidden;overflow-y:auto;max-height:680px}
+.screen::-webkit-scrollbar{width:0}
+.status-bar{background:#F5F0E8;padding:8px 20px 4px;display:flex;justify-content:space-between;font-size:11px;font-weight:500;color:#2c3e50}
+.android-scroll{background:#F5F0E8;padding:16px 20px 32px;display:flex;flex-direction:column;align-items:center}
+.img-circle{width:130px;height:130px;border-radius:50%;background:linear-gradient(145deg,#0a7d6e,#055c51);border:3px solid rgba(255,255,255,0.3);display:flex;align-items:flex-end;justify-content:center;overflow:hidden;box-shadow:0 8px 30px rgba(10,125,110,0.4);margin-top:16px;margin-bottom:14px}
+.tv-app-name{font-size:28px;font-weight:700;color:#0A7D6E;margin-bottom:2px}
+.tv-subtitle{font-size:12px;color:#8A9BB0;margin-bottom:22px}
+.card{width:100%;background:#fff;border-radius:20px;padding:22px 20px;box-shadow:0 4px 20px rgba(0,0,0,0.08)}
+.tv-welcome{font-size:19px;font-weight:700;color:#2C3E50;margin-bottom:2px}
+.tv-instructions{font-size:12px;color:#8A9BB0;margin-bottom:20px}
+.field-label{font-size:12px;font-weight:500;color:#2C3E50;margin-bottom:5px;display:block}
+.et-field{width:100%;height:48px;background:#F7F9FC;border:1.5px solid #DDE3EC;border-radius:10px;display:flex;align-items:center;padding:0 14px;gap:10px;margin-bottom:14px}
+.et-field:focus-within{border-color:#0A7D6E}
+.et-field input{flex:1;border:none;outline:none;background:transparent;font-size:14px;color:#2C3E50}
+.et-field input::placeholder{color:#B0BEC5}
+.row-forgot{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.cb-wrap{display:flex;align-items:center;gap:6px;font-size:12px;color:#8A9BB0;cursor:pointer}
+.cb-wrap input{accent-color:#0A7D6E}
+.tv-forgot{font-size:12px;color:#0A7D6E;font-weight:500;cursor:pointer}
+.btn-primary{width:100%;height:50px;background:linear-gradient(135deg,#12a08e,#0a7d6e);border:none;border-radius:12px;color:#fff;font-size:15px;font-weight:700;cursor:pointer;margin-bottom:14px}
+.divider{display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.divider-line{flex:1;height:1px;background:#DDE3EC}
+.divider-text{font-size:11px;color:#8A9BB0}
+.btn-outline{width:100%;height:48px;background:#fff;border:1.5px solid #DDE3EC;border-radius:12px;display:flex;align-items:center;justify-content:center;gap:10px;font-size:14px;color:#2C3E50;cursor:pointer}
+.register-row{display:flex;justify-content:center;align-items:center;gap:4px;margin-top:22px;font-size:13px}
+.register-row span{color:#8A9BB0}
+.tv-register{color:#0A7D6E;font-weight:700;cursor:pointer}
+.home-bar{display:flex;justify-content:center;padding:10px 0 2px}
+.home-bar div{width:90px;height:4px;background:#2a3040;border-radius:10px}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="badge">EVIDENCIA ADSO - SENA</div>
+  <h1>Maquetacion de Interfaz con XML</h1>
+  <p>Preview de activity_login.xml — Android Layout</p>
+</div>
+<div class="phone">
+  <div class="notch"><div class="cam"></div><div class="speaker"></div><div class="cam"></div></div>
+  <div class="screen">
+    <div class="status-bar"><span>9:41</span><span>100%</span></div>
+    <div class="android-scroll">
+      <div class="img-circle">
+        <svg width="100" height="115" viewBox="0 0 200 220" fill="none">
+          <rect x="40" y="130" width="120" height="110" rx="20" fill="#ffffff"/>
+          <rect x="85" y="110" width="30" height="30" rx="10" fill="#f5c9a0"/>
+          <ellipse cx="100" cy="95" rx="38" ry="42" fill="#f5c9a0"/>
+          <ellipse cx="100" cy="60" rx="38" ry="20" fill="#3d2b1f"/>
+          <rect x="62" y="55" width="76" height="20" rx="10" fill="#3d2b1f"/>
+          <ellipse cx="87" cy="95" rx="5" ry="5.5" fill="#fff"/>
+          <ellipse cx="113" cy="95" rx="5" ry="5.5" fill="#fff"/>
+          <circle cx="88" cy="96" r="3" fill="#2c3e50"/>
+          <circle cx="114" cy="96" r="3" fill="#2c3e50"/>
+          <path d="M90 110 Q100 118 110 110" stroke="#c0826a" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <rect x="108" y="148" width="36" height="22" rx="4" fill="#0a7d6e"/>
+          <text x="126" y="163" text-anchor="middle" font-size="8" fill="white" font-family="sans-serif">MD</text>
+          <path d="M80 155 Q70 175 80 185 Q90 195 100 185" stroke="#0a7d6e" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="100" cy="185" r="6" fill="#0a7d6e"/>
+        </svg>
+      </div>
+      <div class="tv-app-name">MediCare</div>
+      <div class="tv-subtitle">Sistema de Gestion Medica</div>
+      <div class="card">
+        <div class="tv-welcome">Bienvenido de nuevo</div>
+        <div class="tv-instructions">Ingresa tus credenciales para continuar</div>
+        <span class="field-label">Correo electronico</span>
+        <div class="et-field">
+          <input type="email" placeholder="doctor@hospital.com"/>
+        </div>
+        <span class="field-label">Contrasena</span>
+        <div class="et-field">
+          <input type="password" placeholder="........" id="pwd"/>
+        </div>
+        <div class="row-forgot">
+          <label class="cb-wrap"><input type="checkbox"/> Recordarme</label>
+          <span class="tv-forgot">Olvidaste tu contrasena?</span>
+        </div>
+        <button class="btn-primary">Iniciar Sesion</button>
+        <div class="divider"><div class="divider-line"></div><span class="divider-text">o continua con</span><div class="divider-line"></div></div>
+        <button class="btn-outline">Continuar con Google</button>
+      </div>
+      <div class="register-row"><span>No tienes cuenta?</span><span class="tv-register">Registrate aqui</span></div>
+    </div>
+  </div>
+  <div class="home-bar"><div></div></div>
+</div>
+</body>
+</html>
